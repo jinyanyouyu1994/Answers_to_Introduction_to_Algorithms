@@ -4,6 +4,8 @@ Give a real-world example that requires sorting or a real-world example that req
 
 逛淘宝的时候经常按照价格或销量给产品进行排序，从而快速地挑选符合自己的产品。
 
+古代建立护城河就是一个凸壳问题。
+
 1.1-2
 Other than speed, what other measures of efficiency might one use in a real-world setting?
 电功率来表示电的使用效率。
@@ -20,4 +22,17 @@ How are the shortest-path and traveling-salesman problems given above similar? H
 1.1-5
 Come up with a real-world problem in which only the best solution will do. Then come up with one in which a solution that is “approximately” the best is good
 enough.
+嫦娥登月得有精确的飞行路径，差一丢丢可能她就回不来了，也可能直接爆炸了。至于近似最佳还是以淘宝为例，它给我们在推荐商品的时候会综合我们的兴趣喜好以及经济能力推荐差不多的产品，买不买看我们的心情，而不会耗费大量的能力物力，给我们推荐一份我们看完就100%会买的产品清单。
+
+
+
+
+
+
+
+
+
+
+
+
 
