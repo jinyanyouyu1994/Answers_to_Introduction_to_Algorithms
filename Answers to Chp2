@@ -37,8 +37,26 @@ Consider the searching problem:
 Input: A sequence of n numbers A = (a1,a2,...,an) and a value v.
 Output: An index i such that v = A[i] or the special value NIL if v does not appear in A.
 Write pseudocode for linear search, which scans through the sequence, looking for v. Using a loop invariant, prove that your algorithm is correct. Make sure that your loop invariant fulfills the three necessary properties.
-###
 
+###不知道我对于这道题的理解有没有出错
+def search(A,v):
+    n = len(A)
+    for i in range(n):
+        if v == A[i]:
+            return 0
+        else:
+            return 1
+A = [1,2,3,4,5]
+v = 1
+print(search(A,v))
 
 2.1-4
 Consider the problem of adding two n-bit binary integers, stored in two n-element arrays A and B. The sum of the two integers should be stored in binary form in an (n+1)-element array C. State the problem formally and write pseudocode for adding the two integers.
+
+###首先明白二进制的运算法则，类似于十进制，从低位到高位（即从右到左）依次相加，逢二进一。
+
+
+
+
+
+
